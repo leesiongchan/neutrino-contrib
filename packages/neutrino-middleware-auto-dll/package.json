@@ -1,0 +1,13 @@
+{
+  "name": "neutrino-middleware-auto-dll",
+  "description": "Neutrino middleware to enable AutoDLL plugin.",
+  "main": "index.js",
+  "author": "Lee Siong Chan <ahlee2326@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autodll-webpack-plugin": "^0.3.2"
+  },
+  "peerDependencies": {
+    "neutrino": "^7.1.0"
+  }
+}

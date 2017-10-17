@@ -1,0 +1,14 @@
+{
+  "name": "neutrino-middleware-bs-loader",
+  "description": "Neutrino middleware to use bs-loader.",
+  "main": "index.js",
+  "author": "Lee Siong Chan <ahlee2326@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bs-loader": "^1.8.1",
+    "bs-platform": "^1.9.3"
+  },
+  "peerDependencies": {
+    "neutrino": "^7.1.0"
+  }
+}

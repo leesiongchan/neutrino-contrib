@@ -1,0 +1,14 @@
+{
+  "name": "neutrino-middleware-optimize-css-assets",
+  "description": "Neutrino middleware to enable Optimize CSS Assets plugin.",
+  "main": "index.js",
+  "author": "Lee Siong Chan <ahlee2326@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "deepmerge": "^2.0.0",
+    "optimize-css-assets-webpack-plugin": "^3.2.0"
+  },
+  "peerDependencies": {
+    "neutrino": "^7.1.0"
+  }
+}

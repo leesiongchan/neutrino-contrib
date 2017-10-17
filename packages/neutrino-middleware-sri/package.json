@@ -1,0 +1,14 @@
+{
+  "name": "neutrino-middleware-sri",
+  "description": "Neutrino middleware to enable SRI plugin.",
+  "main": "index.js",
+  "author": "Lee Siong Chan <ahlee2326@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "deepmerge": "^2.0.0",
+    "webpack-subresource-integrity": "^1.0.1"
+  },
+  "peerDependencies": {
+    "neutrino": "^7.1.0"
+  }
+}

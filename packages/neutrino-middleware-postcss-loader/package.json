@@ -1,0 +1,14 @@
+{
+  "name": "neutrino-middleware-postcss-loader",
+  "description": "Neutrino middleware to use PostCSS loader.",
+  "main": "index.js",
+  "author": "Lee Siong Chan <ahlee2326@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "deepmerge": "^2.0.0",
+    "postcss-loader": "^2.0.7"
+  },
+  "peerDependencies": {
+    "neutrino": "^7.1.0"
+  }
+}
