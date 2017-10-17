@@ -1,5 +1,6 @@
 {
-  "name": "neutrino-middleware-bs-loader",
+  "version": "7.1.2",
+  "name": "@leesiongchan/neutrino-middleware-bs-loader",
   "description": "Neutrino middleware to use bs-loader.",
   "main": "index.js",
   "author": "Lee Siong Chan <ahlee2326@me.com>",

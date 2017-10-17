@@ -1,5 +1,6 @@
 {
-  "name": "neutrino-middleware-sri",
+  "version": "7.1.2",
+  "name": "@leesiongchan/neutrino-middleware-sri",
   "description": "Neutrino middleware to enable SRI plugin.",
   "main": "index.js",
   "author": "Lee Siong Chan <ahlee2326@me.com>",

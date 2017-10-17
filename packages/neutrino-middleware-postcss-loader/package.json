@@ -1,5 +1,6 @@
 {
-  "name": "neutrino-middleware-postcss-loader",
+  "version": "7.1.2",
+  "name": "@leesiongchan/neutrino-middleware-postcss-loader",
   "description": "Neutrino middleware to use PostCSS loader.",
   "main": "index.js",
   "author": "Lee Siong Chan <ahlee2326@me.com>",

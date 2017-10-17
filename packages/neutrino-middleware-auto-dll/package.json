@@ -1,5 +1,6 @@
 {
-  "name": "neutrino-middleware-auto-dll",
+  "version": "7.1.2",
+  "name": "@leesiongchan/neutrino-middleware-auto-dll",
   "description": "Neutrino middleware to enable AutoDLL plugin.",
   "main": "index.js",
   "author": "Lee Siong Chan <ahlee2326@me.com>",

@@ -1,5 +1,6 @@
 {
-  "name": "neutrino-middleware-extract-styles",
+  "version": "7.1.2",
+  "name": "@leesiongchan/neutrino-middleware-extract-styles",
   "description": "Neutrino middleware to use ExtractText in style.",
   "main": "index.js",
   "author": "Lee Siong Chan <ahlee2326@me.com>",
