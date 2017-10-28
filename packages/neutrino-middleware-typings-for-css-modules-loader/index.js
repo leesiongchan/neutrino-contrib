@@ -19,8 +19,8 @@ module.exports = (neutrino, options = {}) => {
         .use(options.useId || 'css')
           .loader(require.resolve('typings-for-css-modules-loader'))
           .tap(opts => merge(opts, {
-            camelCase: 1,
+            camelCase: true,
             modules: 1,
-            namedExport: 1,
+            namedExport: true,
           }));
 };
