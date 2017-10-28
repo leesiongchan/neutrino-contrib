@@ -9,7 +9,7 @@
     "autodll-webpack-plugin": "^0.3.2"
   },
   "peerDependencies": {
-    "neutrino": "^7.1.0"
+    "neutrino": "^7.2.3"
   },
   "publishConfig": {
     "access": "public"

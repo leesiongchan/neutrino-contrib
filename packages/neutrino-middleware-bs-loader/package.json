@@ -10,7 +10,7 @@
     "bs-platform": "^1.9.3"
   },
   "peerDependencies": {
-    "neutrino": "^7.1.0"
+    "neutrino": "^7.2.3"
   },
   "publishConfig": {
     "access": "public"

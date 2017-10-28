@@ -1,13 +1,13 @@
 {
   "version": "7.1.3",
-  "name": "@leesiongchan/neutrino-middleware-sri",
-  "description": "Neutrino middleware to enable SRI plugin.",
+  "name": "@leesiongchan/neutrino-middleware-typescript-loader",
+  "description": "Neutrino middleware to use TypeScript loader.",
   "main": "index.js",
   "author": "Lee Siong Chan <ahlee2326@me.com>",
   "license": "MIT",
   "dependencies": {
-    "deepmerge": "^2.0.0",
-    "webpack-subresource-integrity": "^1.0.1"
+    "awesome-typescript-loader": "^3.2.3",
+    "typescript": "^2.5.3"
   },
   "peerDependencies": {
     "neutrino": "^7.2.3"

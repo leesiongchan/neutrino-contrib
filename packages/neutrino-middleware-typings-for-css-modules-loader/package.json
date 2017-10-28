@@ -1,13 +1,13 @@
 {
   "version": "7.1.3",
-  "name": "@leesiongchan/neutrino-middleware-sri",
-  "description": "Neutrino middleware to enable SRI plugin.",
+  "name": "@leesiongchan/neutrino-middleware-typings-for-css-modules-loader",
+  "description": "Neutrino middleware to use typings for CSS modules loader.",
   "main": "index.js",
   "author": "Lee Siong Chan <ahlee2326@me.com>",
   "license": "MIT",
   "dependencies": {
     "deepmerge": "^2.0.0",
-    "webpack-subresource-integrity": "^1.0.1"
+    "typings-for-css-modules-loader": "^1.7.0"
   },
   "peerDependencies": {
     "neutrino": "^7.2.3"
