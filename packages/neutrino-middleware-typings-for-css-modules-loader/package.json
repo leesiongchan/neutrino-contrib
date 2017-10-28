@@ -1,5 +1,5 @@
 {
-  "version": "7.2.7",
+  "version": "7.2.8",
   "name": "@leesiongchan/neutrino-middleware-typings-for-css-modules-loader",
   "description": "Neutrino middleware to use typings for CSS modules loader.",
   "main": "index.js",
