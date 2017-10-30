@@ -20,7 +20,8 @@ module.exports = (neutrino, options = {}) => {
           .loader(require.resolve('typings-for-css-modules-loader'))
           .tap(opts => merge(opts, {
             camelCase: true,
-            modules: 1,
+            modules: true,
             namedExport: true,
+            silent: true,
           }));
 };
