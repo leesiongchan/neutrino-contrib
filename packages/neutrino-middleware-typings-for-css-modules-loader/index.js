@@ -22,6 +22,5 @@ module.exports = (neutrino, options = {}) => {
             camelCase: true,
             modules: true,
             namedExport: true,
-            silent: true,
           }));
 };
