@@ -1,5 +1,4 @@
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-const merge = require('deepmerge');
 
 /*
   defaultOptions = {
@@ -19,7 +18,6 @@ module.exports = (neutrino, options = {}) => {
     .resolve
       .extensions
         .add('.ts')
-        .add('.tsx')
         .end()
       .end()
     .module
@@ -39,8 +37,9 @@ module.exports = (neutrino, options = {}) => {
           .end()
         .use(options.useId || 'typescript')
           .loader(require.resolve('ts-loader'))
-          .options(merge({
+          .options({
+            compilerOptions: options.compilerOptions,
             // Use happyPackMode mode to speed-up compilation and reduce errors reported to webpack
             happyPackMode: true,
-          }, options.compilerOptions || {}));
+          });
 };
