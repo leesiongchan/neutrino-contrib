@@ -12,7 +12,7 @@ const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 */
 module.exports = (neutrino, options = {}) => {
   neutrino.config
-    .plugin('auto-dll')
+    .plugin('fork-ts-checker')
       .use(ForkTsCheckerWebpackPlugin, [{ checkSyntacticErrors: true }])
       .end()
     .resolve
