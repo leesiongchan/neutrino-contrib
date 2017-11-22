@@ -1,4 +1,4 @@
-const loaderMerge = require('@neutrinojs/loader-merge');
+const loaderMerge = require('neutrino-middleware-merge-loader');
 const { WatchIgnorePlugin } = require('webpack');
 
 /*

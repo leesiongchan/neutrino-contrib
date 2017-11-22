@@ -13,9 +13,9 @@
     "stylesheet"
   ],
   "dependencies": {
-    "@neutrinojs/loader-merge": "^7.3.3",
     "babel-merge": "^1.1.0",
-    "babel-plugin-react-css-modules": "^3.3.2"
+    "babel-plugin-react-css-modules": "^3.3.2",
+    "neutrino-middleware-merge-loader": "^7.3.3"
   },
   "peerDependencies": {
     "neutrino": "^7.3.3"
