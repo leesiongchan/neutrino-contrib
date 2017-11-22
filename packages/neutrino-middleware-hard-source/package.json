@@ -1,0 +1,17 @@
+{
+  "version": "7.3.3",
+  "name": "@leesiongchan/neutrino-middleware-hard-source",
+  "description": "Neutrino middleware to enable HardSource plugin.",
+  "main": "index.js",
+  "author": "Lee Siong Chan <ahlee2326@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hard-source-webpack-plugin": "^0.4.11"
+  },
+  "peerDependencies": {
+    "neutrino": "^7.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

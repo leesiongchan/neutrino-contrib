@@ -25,9 +25,6 @@ module.exports = (neutrino, options = {}) => {
         .test(options.test || /\.tsx?$/)
         .when(options.include, rule => rule.include.merge(options.include))
         .when(options.exclude, rule => rule.exclude.merge(options.exclude))
-        .use('cache')
-          .loader(require.resolve('cache-loader'))
-          .end()
         .use('thread')
           .loader(require.resolve('thread-loader'))
           .options({
