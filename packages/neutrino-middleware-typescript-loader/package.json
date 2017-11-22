@@ -1,5 +1,5 @@
 {
-  "version": "7.3.4",
+  "version": "7.3.7",
   "name": "@leesiongchan/neutrino-middleware-typescript-loader",
   "description": "Neutrino middleware to use TypeScript loader.",
   "main": "index.js",
