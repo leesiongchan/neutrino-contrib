@@ -1,17 +1,17 @@
 {
-  "version": "7.2.12",
+  "version": "7.3.3",
   "name": "@leesiongchan/neutrino-middleware-typings-for-css-modules-loader",
   "description": "Neutrino middleware to use typings for CSS modules loader.",
   "main": "index.js",
   "author": "Lee Siong Chan <ahlee2326@me.com>",
   "license": "MIT",
   "dependencies": {
-    "deepmerge": "^2.0.0",
+    "@neutrinojs/loader-merge": "^7.3.3",
     "typings-for-css-modules-loader": "^1.7.0",
     "webpack": "^3.8.1"
   },
   "peerDependencies": {
-    "neutrino": "^7.2.3"
+    "neutrino": "^7.3.3"
   },
   "publishConfig": {
     "access": "public"

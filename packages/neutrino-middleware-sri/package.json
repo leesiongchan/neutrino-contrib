@@ -1,5 +1,5 @@
 {
-  "version": "7.2.3",
+  "version": "7.3.3",
   "name": "@leesiongchan/neutrino-middleware-sri",
   "description": "Neutrino middleware to enable SRI plugin.",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "webpack-subresource-integrity": "^1.0.1"
   },
   "peerDependencies": {
-    "neutrino": "^7.2.3"
+    "neutrino": "^7.3.3"
   },
   "publishConfig": {
     "access": "public"

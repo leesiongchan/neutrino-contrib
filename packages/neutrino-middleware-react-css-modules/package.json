@@ -1,5 +1,5 @@
 {
-  "version": "7.2.3",
+  "version": "7.3.3",
   "name": "@leesiongchan/neutrino-middleware-react-css-modules",
   "description": "Neutrino middleware for importing and loading stylesheets from modules",
   "main": "index.js",
@@ -13,12 +13,12 @@
     "stylesheet"
   ],
   "dependencies": {
+    "@neutrinojs/loader-merge": "^7.3.3",
     "babel-merge": "^1.1.0",
-    "babel-plugin-react-css-modules": "^3.3.1",
-    "neutrino-middleware-loader-merge": "^7.1.0"
+    "babel-plugin-react-css-modules": "^3.3.2"
   },
   "peerDependencies": {
-    "neutrino": "^7.2.3"
+    "neutrino": "^7.3.3"
   },
   "publishConfig": {
     "access": "public"

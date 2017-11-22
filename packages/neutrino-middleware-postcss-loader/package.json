@@ -1,16 +1,16 @@
 {
-  "version": "7.2.3",
+  "version": "7.3.3",
   "name": "@leesiongchan/neutrino-middleware-postcss-loader",
   "description": "Neutrino middleware to use PostCSS loader.",
   "main": "index.js",
   "author": "Lee Siong Chan <ahlee2326@me.com>",
   "license": "MIT",
   "dependencies": {
-    "deepmerge": "^2.0.0",
-    "postcss-loader": "^2.0.7"
+    "@neutrinojs/loader-merge": "^7.3.3",
+    "postcss-loader": "^2.0.8"
   },
   "peerDependencies": {
-    "neutrino": "^7.2.3"
+    "neutrino": "^7.3.3"
   },
   "publishConfig": {
     "access": "public"

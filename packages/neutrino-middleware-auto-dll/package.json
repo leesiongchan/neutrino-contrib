@@ -1,15 +1,15 @@
 {
-  "version": "7.2.3",
+  "version": "7.3.3",
   "name": "@leesiongchan/neutrino-middleware-auto-dll",
   "description": "Neutrino middleware to enable AutoDLL plugin.",
   "main": "index.js",
   "author": "Lee Siong Chan <ahlee2326@me.com>",
   "license": "MIT",
   "dependencies": {
-    "autodll-webpack-plugin": "^0.3.2"
+    "autodll-webpack-plugin": "^0.3.5"
   },
   "peerDependencies": {
-    "neutrino": "^7.2.3"
+    "neutrino": "^7.3.3"
   },
   "publishConfig": {
     "access": "public"
