@@ -1,5 +1,5 @@
 const babelMerge = require('babel-merge');
-const loaderMerge = require('neutrino-middleware-merge-loader');
+const loaderMerge = require('neutrino-middleware-loader-merge');
 
 const GENERATE_SCOPED_NAME = '[path]_[local]_[hash:base64:5]';
 
