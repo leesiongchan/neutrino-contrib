@@ -1,4 +1,4 @@
-const merge = require('deepmerge');
+const loaderMerge = require('@neutrinojs/loader-merge');
 
 /*
   defaultOptions = {
@@ -14,10 +14,9 @@ module.exports = (neutrino, options = {}) => {
       .rule(options.ruleId || 'style')
         .use(options.useId || 'postcss')
           .loader(require.resolve('postcss-loader'))
-          .when(options.postcss, use => use.options(options.postcss))
-          .end()
-        .use(options.cssUseId || 'css')
-          .tap(opts => merge(opts, {
-            importLoaders: 1,
-          }));
+          .when(options.postcss, use => use.options(options.postcss));
+
+  neutrino.use(loaderMerge(options.ruleId || 'style', options.cssUseId || 'css'), {
+    importLoaders: 1,
+  });
 };

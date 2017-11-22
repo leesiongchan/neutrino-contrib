@@ -20,6 +20,7 @@ module.exports = (neutrino, opts = {}) => {
       compilerOptions: {
         jsx: 'react',
         module: 'commonjs',
+        sourceMap: true,
         target: 'es5',
         typeRoots: ['types', 'node_modules/@types'],
       },
