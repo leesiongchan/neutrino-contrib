@@ -1,5 +1,5 @@
 {
-  "version": "7.3.5",
+  "version": "7.3.6",
   "name": "@leesiongchan/neutrino-middleware-postcss-loader",
   "description": "Neutrino middleware to use PostCSS loader.",
   "main": "index.js",
