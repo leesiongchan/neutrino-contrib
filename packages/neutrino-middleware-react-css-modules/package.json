@@ -13,12 +13,12 @@
     "stylesheet"
   ],
   "dependencies": {
+    "@neutrinojs/loader-merge": "^8.0.13",
     "babel-merge": "^1.1.0",
-    "babel-plugin-react-css-modules": "^3.3.2",
-    "neutrino-middleware-loader-merge": "^7.3.3"
+    "babel-plugin-react-css-modules": "^3.3.2"
   },
   "peerDependencies": {
-    "neutrino": "^7.3.3"
+    "neutrino": "^8.0.13"
   },
   "publishConfig": {
     "access": "public"

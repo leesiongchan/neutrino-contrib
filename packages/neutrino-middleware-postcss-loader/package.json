@@ -6,11 +6,11 @@
   "author": "Lee Siong Chan <ahlee2326@me.com>",
   "license": "MIT",
   "dependencies": {
-    "neutrino-middleware-loader-merge": "^7.3.3",
+    "@neutrinojs/loader-merge": "^8.0.13",
     "postcss-loader": "^2.0.8"
   },
   "peerDependencies": {
-    "neutrino": "^7.3.3"
+    "neutrino": "^8.0.13"
   },
   "publishConfig": {
     "access": "public"

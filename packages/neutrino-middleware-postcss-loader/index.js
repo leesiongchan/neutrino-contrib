@@ -1,4 +1,4 @@
-const loaderMerge = require('neutrino-middleware-loader-merge');
+const loaderMerge = require('@neutrinojs/loader-merge');
 
 /*
   defaultOptions = {

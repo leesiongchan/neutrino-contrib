@@ -7,10 +7,10 @@
   "license": "MIT",
   "dependencies": {
     "bs-loader": "^2.0.0",
-    "bs-platform": "^2.0.0"
+    "bs-platform": "^2.1.0"
   },
   "peerDependencies": {
-    "neutrino": "^7.3.3"
+    "neutrino": "^8.0.13"
   },
   "publishConfig": {
     "access": "public"

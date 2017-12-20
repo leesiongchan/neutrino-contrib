@@ -10,7 +10,7 @@
     "webpack-subresource-integrity": "^1.0.1"
   },
   "peerDependencies": {
-    "neutrino": "^7.3.3"
+    "neutrino": "^8.0.13"
   },
   "publishConfig": {
     "access": "public"

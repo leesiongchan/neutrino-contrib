@@ -1,6 +1,6 @@
 const merge = require('deepmerge');
 const typeScriptLoader = require('@leesiongchan/neutrino-middleware-typescript-loader');
-const web = require('neutrino-preset-web');
+const web = require('@neutrinojs/web');
 const { join } = require('path');
 
 const MODULES = join(__dirname, 'node_modules');

@@ -6,10 +6,10 @@
   "author": "Lee Siong Chan <ahlee2326@me.com>",
   "license": "MIT",
   "dependencies": {
-    "hard-source-webpack-plugin": "^0.4.11"
+    "hard-source-webpack-plugin": "^0.5.12"
   },
   "peerDependencies": {
-    "neutrino": "^7.3.3"
+    "neutrino": "^8.0.13"
   },
   "publishConfig": {
     "access": "public"

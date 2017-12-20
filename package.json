@@ -5,9 +5,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "bump": "lerna exec --concurrency 1 -- ncu -u",
     "release": "lerna publish"
   },
   "devDependencies": {
-    "lerna": "^2.4.0"
+    "lerna": "^2.4.0",
+    "npm-check-updates": "^2.13.0"
   }
 }
