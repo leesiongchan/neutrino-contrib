@@ -1,5 +1,5 @@
 {
-  "version": "8.0.13",
+  "version": "8.0.14",
   "name": "@leesiongchan/neutrino-preset-typescript-react",
   "description": "Neutrino preset to enable TypeScript for Reactjs",
   "main": "index.js",
