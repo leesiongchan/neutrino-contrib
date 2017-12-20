@@ -1,12 +1,12 @@
 {
-  "version": "7.3.9",
+  "version": "8.0.13",
   "name": "@leesiongchan/neutrino-preset-typescript-react",
   "description": "Neutrino preset to enable TypeScript for Reactjs",
   "main": "index.js",
   "author": "Lee Siong Chan <ahlee2326@me.com>",
   "license": "MIT",
   "dependencies": {
-    "@leesiongchan/neutrino-middleware-typescript-loader": "^7.3.9",
+    "@leesiongchan/neutrino-middleware-typescript-loader": "^8.0.13",
     "deepmerge": "^2.0.0",
     "neutrino-preset-web": "^8.0.13"
   },

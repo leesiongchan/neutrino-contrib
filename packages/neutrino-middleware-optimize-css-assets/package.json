@@ -1,5 +1,5 @@
 {
-  "version": "7.3.3",
+  "version": "8.0.13",
   "name": "@leesiongchan/neutrino-middleware-optimize-css-assets",
   "description": "Neutrino middleware to enable Optimize CSS Assets plugin.",
   "main": "index.js",
