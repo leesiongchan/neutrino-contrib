@@ -7,8 +7,8 @@
   "license": "MIT",
   "dependencies": {
     "@leesiongchan/neutrino-middleware-typescript-loader": "^8.0.13",
-    "deepmerge": "^2.0.0",
-    "neutrino-preset-web": "^8.0.13"
+    "@neutrinojs/web": "^8.0.13",
+    "deepmerge": "^2.0.0"
   },
   "peerDependencies": {
     "neutrino": "^8.0.13"
